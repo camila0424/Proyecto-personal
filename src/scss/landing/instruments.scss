@@ -1,0 +1,55 @@
+.instruments-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle-instruments{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;   
+    font-size: 1.8rem;
+    color: #4b0055;
+    font-weight: bolder;
+    text-align: center; 
+    margin-top: 1rem; 
+    margin-bottom: 2.5rem;
+}
+
+.instruments-list{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+.instruments-list li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    gap: 30px;
+     
+}
+
+.icon-instrument img{
+    width: 4rem;
+    height: auto;
+    margin-right: 30px;
+}
+
+.subject-instrument{
+    color: #521B58;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+}
+
+.teachers-instruments{
+    color: #521B58;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 500;
+}

@@ -1,39 +1,41 @@
 @use './core/root.scss';
-@use './responsive/mobile';
-@use './responsive/tablet';
-@use './responsive/desktop';
+@use './landing/hero';
+@use './landing/instruments';
+@use './landing/tablet';
+@use './landing/desktop';
 
-$font_text: "Open Sans", sans-serif;
-$font_title: "Libre Baskerville", serif;
+$font_text: "Arsenal SC", sans-serif;
+$font_title1: "Arsenal SC", sans-serif;
 $fontsize_title: 1.5rem;
 $fontsize_text: 1.125rem;
 
 .root {
     font-family: $font_text;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
+.text {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .title_1{
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-  
-  }
-  
-  .title_2 {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .text {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+.title_1 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title_2 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* title_2 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+} */

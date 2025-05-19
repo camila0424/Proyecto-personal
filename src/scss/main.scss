@@ -1,6 +1,9 @@
 @use './core/root.scss';
+@use './landing/header';
 @use './landing/hero';
 @use './landing/instruments';
+@use './landing/beneficios';
+@use './landing/como_funciona';
 @use './landing/tablet';
 @use './landing/desktop';
 

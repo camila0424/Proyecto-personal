@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+ 
 }
 
 .tittle-instruments{
@@ -49,7 +50,19 @@
 }
 
 .teachers-instruments{
-    color: #521B58;
+    color: #bd83c4;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 500;
+}
+.ver-mas{
+    background-color: #521B58;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 80px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }

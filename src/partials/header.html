@@ -1,23 +1,28 @@
 <header>
-  <form action="hamburguer">
-    <select class="menu_ham">
-      <option value="&#9776;" disabled selected hidden>&#9776;
-      <option value="Inicia sesión">Inicia sesión</option>
-      <option value="Registrate gratis">Registrate gratis</option>
-      <option value="Busca clases">Busca clases</option>
-      <option value="Repaso Escolar">Repaso Escolar</option>
-      <option value="Solfeo">Solfeo</option>
-      <option value="">Guitarra Eléctrica</option>
-      <option value="">Inscribete como profe de Mila Music</option>
-      <option value="">¿Cómo funciona?</option>
-      <option value="">Comunidad</option>
-      <option value="">Contáctanos</option>
-      <option value="">Ayuda</option>
-    
-      </option>
-    </select>
-    </form>
-    <div class="logo">
+  <!-- Botón hamburguesa -->
+<button class="hamburguesa js_hamburguer collapsed">&#9776;</button>
+
+<!-- Menú personalizado -->
+<section class="menu_ham js-menu-ham" id="menu">
+  <div class="logo_ham">
+    <img  src="./images/logo-final.png" alt="Mila Music" />
+  </div>
+  <a class="menu_ham_log-in-btn" href="#">Inicia sesión</a>
+  <a class="menu_ham_sign-up-btn" href="#">Regístrate Gratis</a>
+  <a class="menu_ham_find">Busca clases</a>
+  <section class="other-class">
+  <a class="menu_ham_sub-find" href="#">Repaso Escolar</a>
+  <a class="menu_ham_sub-find" href="#">Solfeo</a>
+  <a class="menu_ham_sub-find" href="#">Guitarra Eléctrica</a>
+  </section>
+  <a class="menu_ham_find" href="#">Inscribete como profe de Mila Music</a>
+  <a class="menu_ham_find" href="#">¿Cómo funciona?</a>
+  <a class="menu_ham_find" href="#">Comunidad</a>
+  <a class="menu_ham_find" href="#">Contáctanos</a>
+  <a class="menu_ham_find-benefit" href="#">Beneficios</a>
+</section>
+
+<div class="logo">
         <a href="#">
           <img
             src="./images/logo-final.png"

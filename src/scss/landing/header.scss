@@ -7,23 +7,112 @@ header {
 .logo{
     margin-top: 5px;
     text-align: center;
+    width: 20px;
 }
 
 .menu_general {
     display: none;
 }
+//-----------menu hamburguesa--------------------------------
+.hamburguesa {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #570e6a;
+  padding: 10px;
+  width: fit-content;
+  margin-left: 15px;
+}
 
 .menu_ham {
+    display: flex;
+    flex-direction: column;
     font-size: 2rem;
     color: rgb(87, 14, 106);
     margin-right: 10px;
-    border:none;
-    margin-top: 5px;
+    border: none;
+    margin-top: 30px;
     margin-bottom: 5px;
-    padding: 10px;
-    text-align: center;
     cursor: pointer;
     margin-left: 5%;
     max-width: 100px;
-    
+    list-style: none;
+    appearance: none;
+    background: white;
+    background-color: transparent;
+    gap: 8px;
+    min-width: 500px;
+}
+
+.logo_ham img{
+  width: 200px;
+  align-content: center;
+  margin-bottom: -40px;
+  margin-left: 9rem;
+}
+
+.menu_ham a{
+  text-decoration: none;
+}
+
+.menu_ham a:hover{
+  background-color: #F7E7FF;
+  color: #4b0055;
+}
+
+.menu_ham_log-in-btn{
+  background-color: #F7E7FF ;
+  font-family: "Arsenal SC", sans-serif;
+  font-size: 1rem;
+  color: #4b0055;
+  font-weight: bolder;
+  text-align: center; 
+  min-width: 500px;
+  padding: 15px 80px;
+}
+
+.menu_ham_sign-up-btn{
+  color:white;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #4b0055;
+  min-width: 500px;
+  text-align: center;
+  padding: 15px 80px; 
+}
+
+.other-class{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.menu_ham_find{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+
+.menu_ham_sub-find{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  margin-left: 30px;
+}  
+
+.menu_ham_find-benefit{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+  margin-left: 30px;
+  margin-bottom: 50px;
 }

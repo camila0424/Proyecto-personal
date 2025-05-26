@@ -1,8 +1,8 @@
 'use.strict'
 //QS
 
-const hamburguerBtn = document.querySelector('.js_hamburguer')
-const menuComplete = document.querySelector ('js-menu-ham')
+const hamburguerBtn = document.querySelector('.js_hamburguer');
+const menuHam = document.querySelector('.js_menu_ham');
 
 
 
@@ -12,25 +12,12 @@ const menuComplete = document.querySelector ('js-menu-ham')
 
 
 //-----------------FUNIONES------------------
-const handleClickMenuComplete= (ev) => {
-// Código lo mismo que hace el toggle
-if (menuComplete.classList.contains("collapsed")) {
-    showMenuComplete();
-} else {hideMenuComplete();
-}
-}
 
-function showMenuComplete() {
-menuComplete.classList.remove("collapsed");
-}
-function hideMenuComplete() {
-menuComplete.classList.add("collapsed");
-}
-
-
-console.log ('funcion toggle1')
 //-----------------EVENTOS---------------------
-hamburguerBtn.addEventListener("click", (handleClickMenuComplete) )
+hamburguerBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    menuHam.classList.toggle('collapsed');
+});
 
 console.log ('funcion toggle2')
 

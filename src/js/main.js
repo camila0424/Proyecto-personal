@@ -1,3 +1,3 @@
 'use strict';
+import './header.js';
 
-console.log('>> Ready :)');

@@ -34,7 +34,7 @@
     font-size: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 70px;
     list-style: none;
     margin-left: 10%;
@@ -94,21 +94,20 @@
 .thinking-of-you{
     font-family: "Arsenal SC", sans-serif;
     font-size: 1.5rem;
-    color: #880097;
+    color:#550260;
     font-weight: bold;
     text-align: center; 
     margin-top: 1rem;
     margin-bottom: 1rem; 
-    font-weight: 700;
+    font-weight: 750;
 }
 
 .paragraph-thinking{
     font-family: "Arsenal SC", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #880097;
     font-weight: regular;
     text-align: center; 
     margin-bottom: 2rem;
-    font-weight: 500;
-
+    font-weight: 550;
 }

@@ -1,5 +1,5 @@
-@media  (width > 768px) {
-   /* inicio header */
+/* @media  (width > 768px) {
+   //inicio del header
     header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -18,10 +18,6 @@
         
       }
     
-    /*.menu_cent {
-        justify-content: center;
-      }*/
-    
     .menu_der {
         justify-content: flex-end;
       }
@@ -36,7 +32,7 @@
     
 
     .menu_general {
-        display: contents; /* los navs (las hijas) se comportan como si estuvieran directamente en el grid */
+        display: contents; // los navs (las hijas) se comportan como si estuvieran directamente en el grid 
      }
       
       .menu_general nav {
@@ -46,7 +42,7 @@
      }
       
       .menu_general a {
-        font-size: 0.9em; /* más pequeño para tablets */
+        font-size: 0.9em; //más pequeño para tablets
         color: rgb(87, 14, 106);
         text-decoration: none;
         padding: 6px 12px;
@@ -59,7 +55,7 @@
         background-color: #ffffff;
       }
     
-      /* fin header */
+     //fin header
    
-}
+} */
 

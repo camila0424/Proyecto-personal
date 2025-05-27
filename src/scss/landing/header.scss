@@ -7,9 +7,9 @@ header {
     z-index: 100;
    }
 .logo{
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
-    width: 20px;
+   
 }
 
 .menu_general {
@@ -26,7 +26,7 @@ header {
   appearance: none;
   border: none;
   background-color: white;
-   position: relative; 
+  position: relative; 
   z-index: 1001;
 }
 
@@ -44,10 +44,8 @@ header {
     color: rgb(87, 14, 106);
     margin-right: 10px;
     border: none;
-   /*  margin-top: 30px; */
     margin-bottom: 5px;
     cursor: pointer;
-   /*  margin-left: 5%; */
     max-width: 100px;
     list-style: none;
     appearance: none;

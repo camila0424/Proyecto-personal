@@ -39,14 +39,13 @@ li {
     margin-bottom: 1rem;
 }
 
-.social a{
-    text-decoration: none; 
-    color: white;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+.social{
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  display: inline-flex;
+  gap: 3.5rem; 
 }
 
-.social{
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+.social img{
+  width: 4rem;
 }

@@ -7,8 +7,7 @@
 @use './landing/testimonios.scss';
 @use './landing/unete.scss';
 @use './landing/footer.scss';
-@use './landing/tablet';
-@use './landing/desktop';
+
 
 $font_text: "Arsenal SC", sans-serif;
 $font_title1: "Arsenal SC", sans-serif;
@@ -40,8 +39,3 @@ $fontsize_text: 1.125rem;
   font-style: italic;
 }
 
-/* title_2 {
-  font-family: "Arsenal SC", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-} */

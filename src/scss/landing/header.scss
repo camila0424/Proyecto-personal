@@ -8,8 +8,7 @@ header {
    }
 .logo{
     margin-top: 10px;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 .menu_general {
@@ -127,3 +126,126 @@ header {
   margin-left: 30px;
   margin-bottom: 50px;
 }
+
+@media  (width > 768px) {
+   
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px 10px;
+      }
+    
+    .menu_ham {
+        display: none;
+    }
+    .hamburguesa {
+        display: none;
+    }
+    .menu_cent, .menu_der {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 15px;
+        gap: 8px;
+        
+      }
+    
+    .menu_der {
+        justify-content: flex-end;
+      }
+
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        width: auto;
+        max-width: 120px;
+        margin-right: 100px;
+     }
+    
+
+    .menu_general {
+        display: contents; // los navs (las hijas) se comportan como si estuvieran directamente en el grid 
+     }
+      
+      .menu_general nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 16px;
+     }
+      
+      .menu_general a {
+        font-size: 0.9em; //más pequeño para tablets
+        color: rgb(87, 14, 106);
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+        white-space: nowrap;
+      }
+      
+      .menu_general a:hover {
+        background-color: #ffffff;
+      }
+    
+}  
+
+@media (width > 1280px) {
+    //inicio header
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        width: auto;
+        max-width: 150px;
+        margin-right: 100px;
+     }
+        
+    header {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px   30px;
+        font-size: 1rem;
+      }
+    
+    .menu_ham {
+        display: none;
+    }
+    .hamburguesa {
+        display: none;
+    }
+    .menu_cent, .menu_der {
+        align-items: flex-end;
+        margin-bottom: 15px;
+        gap: 8px;
+     
+      }
+    
+    .menu_der {
+        justify-content: flex-end;
+      }
+  
+    .menu_general {
+        display: flex; 
+        justify-content: space-between;
+     }
+      
+      .menu_general nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 16px;
+     }
+      
+      .menu_general a {
+        font-size: 0.9em; // más pequeño para tablets 
+        color: rgb(87, 14, 106);
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+        white-space: nowrap;
+      }
+      
+      .menu_general a:hover {
+        background-color: #ffffff;
+      }
+} 
+   

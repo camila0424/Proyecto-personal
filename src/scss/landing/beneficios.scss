@@ -43,3 +43,26 @@
     max-width: 400px;
     align-items: center;
 }
+
+@media  (width > 768px){
+    .benefits_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    list-style: none;
+    padding: 0;
+    margin-right:15% ;
+}
+
+}
+
+@media (width > 1280px){
+    .benefits_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    list-style: none;
+    padding: 0;
+    margin-right:15% ;
+}
+}

@@ -3,3 +3,37 @@
     margin: 0;
     padding: 0;
   }
+
+$font_text: "Open Sans", sans-serif;
+$font_title: "Libre Baskerville", serif;
+$fontsize_title: 1.5rem;
+$fontsize_text: 1.12rem;
+
+.root {
+    font-family: $font_text;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.title_1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+  
+}
+  
+.title_2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}

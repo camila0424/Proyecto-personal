@@ -1,41 +1,3 @@
-$font_text: "Open Sans", sans-serif;
-$font_title: "Libre Baskerville", serif;
-$fontsize_title: 1.5rem;
-$fontsize_text: 1.125rem;
-
-.root {
-    font-family: $font_text;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-
-  .title_1{
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-  
-  }
-  
-  .title_2 {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .text {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
-
-/*HERO*/
-
 .hero {
     background-image: url('../images/hero/mobile.png');
     background-size: cover;
@@ -99,12 +61,13 @@ $fontsize_text: 1.125rem;
   padding: 15px 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%; 
   text-decoration: none;
   cursor: pointer;
 }
-  
+
+
 .instruments{
     font-family: "Arsenal SC", sans-serif;
     font-size: 1.6rem ;
@@ -130,50 +93,6 @@ $fontsize_text: 1.125rem;
 
 
 
-/*   EJEMPLI DE PLATZI CON LO @MEDIA
 
-@media (min-width: 600px) {
-    .c1{
-        width: 25%;
-        order: 1;
-    }
-    .c2{
-        width: 75%;
-        order: 2;
-    }
-    .c3 {
-        width: 100%;
-        order: 3;
-    }
-    .c4 {
-        width: 100%%;
-        order: 4;
-    }
-    .c5 {
-        width: 100%%;
-        order: 5;
-    }
- }
 
- @media (min-width: 800px){
-    .c1{
-        width: 30%;
-        order: 1;
-    }
-    .c2{
-        width: 40%;
-        order: 2;
-    }
-    .c3 {
-        width: 30%;
-        order: 3;
-    }
-    .c4 {
-        width: 50%;
-        order: 4;
-    }
-    .c5 {
-        width: 50%;
-        order: 5;
-    }
- }*/
+
